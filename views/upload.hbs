@@ -1,0 +1,10 @@
+{{>header}}
+<div class="container">
+    <div class="form-container">
+        <h1>Wybierz pliki, które chcesz przesłać na serwer</h1>
+        <form enctype="multipart/form-data" method="POST" action="/">
+            <input type="file" required accept="*/*" name="filestoupload" multiple>
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
+</div>
